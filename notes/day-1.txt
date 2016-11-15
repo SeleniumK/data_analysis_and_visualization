@@ -1,0 +1,51 @@
+Descriptive statistics
+-----------------------
+
+-- Arithmetic Mean
+	(for our purposes, mean == average)
+	sum of data, divided by number of data points
+	very sensitive to outliers
+	where data is clustered
+
+-- Median
+	Literal Midpoint of data
+	insensitive to outliers
+	if dataset has even number, average two middle nums
+
+-- Mode
+	most common value in data set
+	collections package makes this super easy (Counter object, works like a dictionary: key=thing counted, value=number of counts)
+
+-- Standard Deviation
+	how data is clustered, and how spread out it is
+	how far is data spread from it's mean
+	larger standard deviation == larger spread
+
+	need mean first.
+	what i the distance from the mean
+	what is the total distance from the mean across my data set
+	what is my average distance from the mean across the data set
+	get units right and reduce down from squared distance
+
+	measures the variability
+
+	std small compared to mean == tightly spread
+
+-- Quantiles
+	Percentile
+	if you step this far into the data set, what is the value? (25% in? 50% in?)
+	used to tell the spread while not worrying about outliers
+
+	Interquartile range
+	q75 - q25
+
+	spread of the middle of the data
+
+
+
+
+Numpy
+
+NP Arrays
+	cannot change datatype, or make larger, but can change values
+
