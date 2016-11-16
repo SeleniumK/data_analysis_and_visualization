@@ -1,0 +1,27 @@
+Pandas
+
+Series
+	like numpy array, fixed size
+
+DataFrame
+	Data organized as columns and rows (can convert from dictionary)
+	All data within column needs to be the same type, but not all data in the dataframe neets to be the same
+	Rows are auto incremented integers by default
+	Columns are pandas series objects
+
+	Can access columns with dot or square bracket location
+	can access multiple columns df["one thing", "second thing"]
+
+	access rows with .loc[idx]
+	can slice on rows -- .loc[0:4]
+	list of rows: .loc[[0, 2, 4]]
+
+	setting a new index:
+		.set_index("column you want to set as index")
+		doesn't mutate the dataframe, just returns a new dataframe
+		set inplace=True will mutate it
+
+
+	NOT IMMUTABLE OBJECTS
+		
+	
